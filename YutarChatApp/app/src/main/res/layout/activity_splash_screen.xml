@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.splash_screen"
+    android:backgroundTint="#fff"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="150dp"
+    >
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yutar Chat"
+        android:textSize="28sp"
+        android:textColor="#009688"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        />
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="150dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thiết kế bởi Yutar "
+        android:textSize="15dp"
+        />
+
+</LinearLayout>
